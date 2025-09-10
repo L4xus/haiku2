@@ -1,15 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "haiku",
+  "id": "pumyum",
   "version": "1.0",
-  "name": "Haiku",
-  "description": "Open source base client for the latest Fabric version.",
+  "name": "pumyum client",
+  "description": "HT3 Mod.",
   "authors": [
-    "Vili"
+    "pumyum"
   ],
   "contact": {
-    "website": "https://vili.dev",
-    "repo": "https://github.com/v1li/haiku"
+    "discord": "sldebyside",
   },
   "license": "GPL-3.0",
   "icon": "assets/haiku/icon.png",
