@@ -8,16 +8,31 @@
 package dev.vili.haiku.command.commands;
 
 import dev.vili.haiku.command.Command;
+import java.util.HashSet;
+import java.util.Set;
 
 public class DontAttackCmd extends Command {
+
+    // Static set to hold the names of players not to attack
+    public static final Set<String> doNotAttack = new HashSet<>();
 
     public DontAttackCmd() {
         super("DontAttack", "doesn't attack added people.", "dontattack", "da");
     }
 
-
     @Override
     public void onCommand(String[] args, String command) {
-        /* Command code here. */
+        if (args.length != 1) {
+            sendMessage("Usage: ." + command + " <player>");
+            return;
+        }
+        String playerName = args[0].toLowerCase();
+        doNotAttack.add(playerName);
+        sendMessage("Added " + playerName + " to the do-not-attack list.");
+    }
+
+    // Utility: check if a player should not be attacked
+    public static boolean shouldAttack(String targetName) {
+        return !doNotAttack.contains(targetName.toLowerCase());
     }
 }
