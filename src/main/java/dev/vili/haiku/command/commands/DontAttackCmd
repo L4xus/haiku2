@@ -9,9 +9,9 @@ package dev.vili.haiku.command.commands;
 
 import dev.vili.haiku.command.Command;
 
-public class ExampleCmd extends Command {
+public class DontAttackCmd extends Command {
 
-    public ExampleCmd() {
+    public DontAttackCmd() {
         super("DontAttack", "doesn't attack added people.", "example", "da");
     }
 
