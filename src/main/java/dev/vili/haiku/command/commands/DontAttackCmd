@@ -12,7 +12,7 @@ import dev.vili.haiku.command.Command;
 public class DontAttackCmd extends Command {
 
     public DontAttackCmd() {
-        super("DontAttack", "doesn't attack added people.", "example", "da");
+        super("DontAttack", "doesn't attack added people.", "dontattack", "da");
     }
 
 
