@@ -100,7 +100,7 @@ public class GizmoTab {
     public static void render() {
         ImGuizmo.beginFrame();
 
-        if (ImGui.begin("Haiku Gizmo Command Window")) {
+        if (ImGui.begin("PClient Gizmo Command Window")) {
             ImGui.separator();
 
             if (firstFrame) {
