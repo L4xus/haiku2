@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "pumyum",
+  "id": "fpsforger",
   "version": "1.0",
-  "name": "pumyum client",
+  "name": "PClient",
   "description": "HT3 Mod.",
   "authors": [
-    "pumyum"
+    "Pollutee"
   ],
   "contact": {
-    "discord": "sldebyside",
+    "discord": "soon!",
   },
   "license": "GPL-3.0",
   "icon": "assets/haiku/icon.png",
