@@ -74,9 +74,9 @@ public class HaikuGui extends Screen {
         // Window
         if (ImGui.begin("Gui", ImGuiWindowFlags.NoResize)) {
             ImGui.setWindowSize(250, 120);
-            ImGui.text("Welcome to Haiku!");
+            ImGui.text("Welcome!");
             ImGui.separator();
-            ImGui.text("Haiku v" + Haiku.MOD_VERSION);
+            ImGui.text("PClient v" + Haiku.MOD_VERSION);
             ImGui.text("Minecraft " + SharedConstants.getGameVersion().getName());
             ImGui.text("Cmd prefix: " + Haiku.getInstance().getCommandManager().prefix);
 
