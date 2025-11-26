@@ -46,7 +46,7 @@ public class HaikuOneGui extends Screen {
     private Module.Category selectedCategory;
 
     public HaikuOneGui() {
-        super(Text.literal("Haiku"));
+        super(Text.literal("PClient"));
         long windowHandle = mc.getWindow().getHandle();
         ImGui.createContext();
         implGlfw.init(windowHandle, true);
